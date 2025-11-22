@@ -1,0 +1,47 @@
+site_name: Contract as a Service (CaaS)
+site_url: https://caas.contract-as-a-service.net
+use_directory_urls: true
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.tracking
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+    - scheme: slate
+      primary: custom
+      accent: custom
+  font:
+    text: Inter
+    code: Roboto Mono
+
+extra_css:
+  - css/custom.css
+  - css/home.css
+
+extra_javascript:
+  - js/custom.js
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Problem & Motivation: getting-started/problem.md
+    - Core Concepts: getting-started/core-concept.md
+    - Overview: getting-started/overview.md
+  - Design Guide:
+    - Contract Design: design-guide/contract-design.md
+    - Business Logic: design-guide/business-logic.md
+    - Patterns: design-guide/patterns.md
+    - Reference & Examples: design-guide/reference-examples.md
+  - Architecture & Operations:
+    - Architecture & Runtime: architecture-operations/architecture.md
+    - Adoption: architecture-operations/adoption.md
+  - Legacy Content:
+    - Original Introduction: intro.md
+
