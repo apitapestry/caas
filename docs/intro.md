@@ -2,10 +2,10 @@
 
 > **⚠️ Note:** This page contains early draft content that has been superseded by the reorganized documentation. 
 > Please see:
-> - [Overview](getting-started/overview.md) for a high-level introduction
-> - [Core Concepts](getting-started/core-concept.md) for the fundamental ideas behind CaaS
-> - [Business Logic](design-guide/business-logic.md) for patterns on handling business logic
-> - [Contract Design](design-guide/contract-design.md) for design guidelines
+> - [Overview](overview.md) for a high-level introduction
+> - [Core Concepts](core-concept.md) for the fundamental ideas behind CaaS
+> - [Business Logic](business-logic.md) for patterns on handling business logic
+> - [Contract Design](contract-design.md) for design guidelines
 
 ---
 

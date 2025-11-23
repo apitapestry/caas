@@ -2,6 +2,19 @@ site_name: Contract as a Service
 site_url: https://docs.contract-as-a-service.net
 use_directory_urls: true
 
+nav:
+  - Home: README.md
+  - Introduction: intro.md
+  - Overview: overview.md
+  - Adoption: adoption.md
+  - Problem: problem.md
+  - Core Concept: core-concept.md
+  - Architecture: architecture.md
+  - Patterns: patterns.md
+  - Business Logic: business-logic.md
+  - Contract Design: contract-design.md
+  - Reference Examples: reference-examples.md
+
 theme:
   name: material
   features:
@@ -22,15 +35,7 @@ theme:
     code: Roboto Mono
 
 extra_css:
-  - css/custom.css
-  - css/home.css
-
-extra_javascript:
-  - js/custom.js
+  - extra.css
 
 extra:
   generator: false
-
-nav:
-  - Home: index.md
-#  - Overview: overview.md
